@@ -1,0 +1,107 @@
+ @import url('https://fonts.googleapis.com/css?family=Caveat+Brush');
+
+ body{
+ 	font-family: 'Caveat Brush', cursive;
+ 	background: linear-gradient(to right ,#fc354c, #0abfbc);
+ }
+
+a, a:hover{
+	color: black;
+	text-decoration: none;
+
+}
+a{
+	transition: all 0.5s;
+}
+.tabs{
+	box-shadow: 1px 1px 7px 1px black;
+}
+#heading{
+	padding: 15px;
+}
+#users_all.fill-div {
+    display: block;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+}
+
+#logo{
+	width: 50px;
+	height: 50px;
+}
+
+#users_all,#users_online, #users_offline{
+	padding: 15px;
+	background-color: lightgrey;
+	border: 1px solid black;
+	transition: all 0.5s;
+}
+#users_all:hover{
+	background-color: #78ffd6;
+	transition: all 0.5s;
+}
+#users_online:hover{
+	background-color: #78ffd6;
+	transition: all 0.5s;
+
+}
+#users_offline:hover{
+	background-color: #78ffd6;
+	transition: all 0.5s;
+}
+.usersoffline{
+	background-color: grey !important ;
+	background: linear-gradient(to right, #8e9eab,#eef2f3);
+
+}
+.usersonline{
+	background-color: grey !important;
+	background: linear-gradient(to right, #56ab2f,#a8e063);
+	transition: all 0.5s;
+}
+.usersall{
+	background-color: grey !important;
+	background: linear-gradient(to right, #acb6e5,#86fde8);
+}
+figure{
+	background: linear-gradient(to right, #cb2d3e,#ef473a);		
+	padding: 5px;
+	box-shadow: 1px 1px 10px 2px black;
+}
+#online_users{
+	background: linear-gradient(to right, #cb2d3e,#ef473a);	
+	padding-bottom: 5px;
+	padding-top: 5px;
+	margin-top: 5%;
+	box-shadow: 1px 1px 10px 2px black;
+}
+
+.listUsers{
+
+}
+/*#online_users{
+	background-color: black;
+	color: white !important;
+}
+#users_all{
+	background-color: orange;
+	transition: 0.5s;
+	padding: 15px;
+}
+#users_all:hover{
+	background-color: yellow;
+	padding: 40px;
+	transition: all 0.5;
+}
+
+#users_online{
+	background-color: green;
+}
+#users_offline{
+	background-color: grey;	
+}
+#users_online, #users_offline{
+	padding: 15px !important;
+}
+*/
